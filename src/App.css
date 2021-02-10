@@ -97,4 +97,7 @@ p {
   .city {
       padding: 40px 20%;
   }
+  .but{
+    margin-top: 1rem !important;
+  }
 }
