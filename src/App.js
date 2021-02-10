@@ -9,7 +9,6 @@ import CloudOutlinedIcon from '@material-ui/icons/CloudOutlined';
 function App() {
   const [value, setValue] = useState('')
   const [weather, setWeather] = useState({})
-  console.log(process.env)
   const search = async (e) => {
     if (e.key === 'Enter') {
       const data = await fetchWeather(value)
